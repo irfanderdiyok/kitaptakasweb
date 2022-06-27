@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px;
+    color: orangered;
+}
+
+.login img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.login h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.inp {
+    height: 50px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: -1px 1px 30px -11px orangered;
+    -webkit-box-shadow: -1px 1px 30px -11px orangered;
+    -moz-box-shadow: -1px 1px 30px -11px orangered;
+}
+
+.btn1 {
+    height: 50px;
+    width: 60%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-weight: 600;
+    background: orangered;
+    color: white;
+}
+
+.btn1:hover {
+    background: orangered;
+    transition: 0.5s;
+}
+
+.fa-facebook {
+    font-size: 2.5rem;
+    color: rgb(39, 39, 192);
+    cursor: pointer;
+}
+
+.fa-google-plus {
+    font-size: 2.5rem;
+    color: rgb(209, 7, 24);
+    cursor: pointer;
+}
+
+.forgot-and-create a {
+    margin-left: 230px;
+    font-size: small;
+    color: orangered;
+}
+
+.yazi {
+    font-family: 'Pacifico', cursive;
+}
+
+.baslik {
+    font-size: xxx-large;
+}

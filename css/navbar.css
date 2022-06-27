@@ -1,0 +1,37 @@
+.logo {
+    height: 60px;
+}
+
+.kapsayici {
+    background-color: rgb(250, 117, 69);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.nav-link {
+    color: hsl(64, 96%, 55%);
+    font-family: 'Pacifico', cursive;
+}
+
+@media (max-width: 768px) {
+    .kapsayici {
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+    .nav-item {
+        transition: all .5s ease;
+        margin-top: 15px;
+    }
+    .nav-item:hover:not(.sirket) {
+        background-color: rgb(250, 117, 69);
+        padding-left: 40px;
+    }
+    .nav-link:hover {
+        color: #F4A442;
+    }
+    .logo_border {
+        color: hsl(64, 96%, 55%);
+        font-size: larger;
+        margin-right: 20px;
+    }
+}
